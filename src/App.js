@@ -1,4 +1,4 @@
-
+import React from "react";
 import './App.css';
 import Dictionary from "./Dictionary";
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div className="Container">
-      <h1>📘 Dictionary App</h1>
+      <h1 className="Dictionary">📘 Dictionary App</h1>
       </div>
       <main>
         <Dictionary  />
